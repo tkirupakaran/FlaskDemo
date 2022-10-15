@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ABC Bank Home Page</title>
+</head>
+<body>
+
+<h3>Welcome to ABC Bank Home Page</h3>
+    <FORM>
+        <table>
+            <tr>
+                <td>Account Creation</td>
+                <td><a href="{{url_for('UserCreation')}}">Create Account</a></td>
+            </tr>
+            <tr>
+                <td>Fund Transfer</td>
+                <td><a href="{{url_for('FundTransfer')}}">Send Money</a></td>
+            </tr>
+            <tr>
+                <td>View Statement</td>
+                 <td><a href="{{url_for('ViewStatement')}}">View Last 10 Transaction</a></td>
+            </tr>
+            <tr>
+        </table>
+    </FORM>
+
+</body>
+</html>
